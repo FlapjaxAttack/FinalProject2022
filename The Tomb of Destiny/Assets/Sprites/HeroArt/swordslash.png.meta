@@ -1,19 +1,19 @@
 fileFormatVersion: 2
-guid: 5103e6eb788ec884a83c8fb491ea1b92
+guid: 9f11a78df1094a6489810ec56a42f985
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3117775995601270193
-    second: _Attack_0
+      213: 6527823063421003794
+    second: swordslash_0
   - first:
-      213: 8139804621348180182
-    second: _Attack_1
+      213: -8271905847392731888
+    second: swordslash_1
   - first:
-      213: -3573696086554577925
-    second: _Attack_2
+      213: -7528077603886551617
+    second: swordslash_2
   - first:
-      213: -6677449987691099553
-    second: _Attack_3
+      213: 6866195803627704986
+    second: swordslash_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -111,85 +111,85 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: _Attack_0
+      name: swordslash_0
       rect:
         serializedVersion: 2
-        x: 36
-        y: 0
-        width: 66
-        height: 43
+        x: 0
+        y: 32
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1b5bd03dfb0944b20800000000000000
-      internalID: 3117775995601270193
+      spriteID: 218afc38d7c779a50800000000000000
+      internalID: 6527823063421003794
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: _Attack_1
+      name: swordslash_1
       rect:
         serializedVersion: 2
-        x: 171
-        y: 0
-        width: 66
-        height: 43
+        x: 32
+        y: 32
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6d09a843d2566f070800000000000000
-      internalID: 8139804621348180182
+      spriteID: 01dfdae4579443d80800000000000000
+      internalID: -8271905847392731888
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: _Attack_2
+      name: swordslash_2
       rect:
         serializedVersion: 2
-        x: 293
+        x: 0
         y: 0
-        width: 66
-        height: 43
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bf3f5b1f75ea76ec0800000000000000
-      internalID: -3573696086554577925
+      spriteID: fbda4c20e45e68790800000000000000
+      internalID: -7528077603886551617
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: _Attack_3
+      name: swordslash_3
       rect:
         serializedVersion: 2
-        x: 413
+        x: 32
         y: 0
-        width: 66
-        height: 43
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f5a4c366d9ee453a0800000000000000
-      internalID: -6677449987691099553
+      spriteID: a92d18964b0a94f50800000000000000
+      internalID: 6866195803627704986
       vertices: []
       indices: 
       edges: []
