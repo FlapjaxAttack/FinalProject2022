@@ -9,8 +9,10 @@ public class Health : MonoBehaviour
     public float currentHealth { get; private set; }
     private Animator anim;
     private bool dead;
+    [SerializeField] private AudioSource death;
+    public GameManager gameManager;
 
-    private void Awake()
+    private void Start()
     {
         currentHealth = startingHealth;
         anim = GetComponent<Animator>();
@@ -31,6 +33,9 @@ public class Health : MonoBehaviour
                 anim.SetTrigger("die");
                 GetComponent<PlayerMovement>().enabled = false;
                 dead = true;
+                death.Play();
+                gameManager.Death();
+
             }
         }
     }

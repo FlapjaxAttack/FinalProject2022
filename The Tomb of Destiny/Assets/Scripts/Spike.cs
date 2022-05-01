@@ -11,7 +11,7 @@ public class Spike : MonoBehaviour
     private float leftEdge;
     private float rightEdge;
 
-    private void Awake()
+    private void Start()
     {
         leftEdge = transform.position.x - movementDistance;
         rightEdge = transform.position.x + movementDistance;
